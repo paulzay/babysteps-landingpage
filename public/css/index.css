@@ -1,0 +1,196 @@
+@import url("https://fonts.googleapis.com/css?family=Public+Sans:300,400,500,600&display=swap");
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+*{
+  text-decoration: none;
+}
+body{
+  font-family: 'Public Sans', sans-serif;
+}
+
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background: #fff;
+  box-shadow: 0 2px 6px 0 rgba(0, 0, 0, .12), inset 0 -1px 0 0 #dadce0;
+  position: sticky;
+  top: 0;
+}
+
+nav .links {
+  display: flex;
+  align-items: center;
+}
+
+.links a {
+  margin-left: 20px;
+  color: #333;
+  font-size: 16px;
+}
+
+.links a:hover {
+  color: #F98D67;
+}
+/* nav button {
+  background-color: #F98D67;
+  padding: 10px 24px;
+  color: white;
+  border: 0;
+  border-radius: 5px;
+  font-size: 15px;
+} */
+
+
+.banner {
+  background: url('https://images.bauerhosting.com/affiliates/sites/12/motherandbaby/legacy/root/baby-crawling-and-smiling.jpg?auto=format&w=1440&q=80') no-repeat;
+  background-color: #fafafa;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  height: calc(100vh - 75px);
+}
+.banner-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 10%; 
+  padding-bottom: 7%;
+  padding-left: 12%;
+  color: white;
+}
+.banner-text a {
+  text-align: center;
+  display: inline-block;
+  border-radius: 30px;
+  cursor: pointer;
+  font-size: 0.89rem;
+  font-weight: 600;
+  padding: 14px 33px;
+  text-decoration: none;
+  width: 180px;
+  border: none;
+  margin-top: 10px;
+  background-color: #F98D67;
+  color: white;
+  cursor: pointer;
+}
+.banner-text h1 {
+  font-size: 2.5rem;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+.banner-text p {
+  font-size: 1.2rem;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+#about, #features {
+  height: 100vh;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+#about h2, #features h2 {
+  text-align: center;
+  margin-top: 50px;
+  font-size: 2.5rem;
+  font-weight: 600;
+  margin-bottom: 20px;
+  color: #F98D67;
+}
+#about p, #features p {
+  font-size: 1.2rem;
+  font-weight: 400;
+  margin-bottom: 20px;
+  line-height: 1.2em;
+}
+#about {
+  background: #fafafa;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-left: 40px;
+  padding-right: 40px;
+  text-align: center;
+}
+#about img {
+  width: 100%;
+  height: 100%;
+  max-width: 500px;
+  max-height: 500px;
+  border-radius: 10px;
+}
+.team {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 50px;
+  text-align: center;
+}
+.team h3 {
+  margin-bottom: 3
+  0px;
+}
+.urls {
+  margin-top: 50px;
+}
+.urls  p {
+  margin-top: 20px;
+}
+.urls svg {
+  margin: 0 10px;
+  cursor: pointer;
+  width: 50px;
+}
+.urls ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.urls ul li {
+  margin: 0 10px;
+}
+.urls ul li a {
+  color: #333;
+  font-size: 20px;
+  cursor: pointer;
+}
+.features {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.feature {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center;
+  align-items: center; */
+  margin: 20px;
+  padding: 20px;
+  border-radius: 10px;
+  background: #fafafa;
+  box-shadow: 0 2px 6px 0 rgba(0, 0, 0, .12), inset 0 -1px 0 0 #dadce0;
+}
+.feature .title {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+footer {
+  background-color: #F98D67;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  padding: 20px;
+  bottom: 0;
+}
+footer p {
+  margin-top: 10px;
+}

@@ -2,30 +2,94 @@
 <html>
 <head>
   <title>Babysteps</title>
-  <link rel="stylesheet" type="text/css" href="index.css">
+  <link rel="stylesheet" type="text/css" href="./public/css/reset.css">
+  <link rel="stylesheet" type="text/css" href="./public/css/index.css">
   <link favicon="./public/assets/favicon.ico">
   <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
 </head>
 <body>
   <nav>
-    <img src="./public/assets/logo.svg" alt="Babysteps logo">
-    <button>Visit</button>
+    <img src="./public/assets/logo.svg" alt="Babysteps logo" width="100">
+    <div class="links">
+      <a href="#features">Features</a>
+      <a href="#about">About</a>
+    </div>
   </nav>
   <main>
-    <div class="container">
     <div class="banner">
-      <h1>Babysteps</h1>
-      <p>All the moments and more</p>
+      <div class="banner-text">
+        <h1>Babysteps</h1>
+        <p>All the moments and more</p>
+        <a href="https://babysteps-three.vercel.app/">Visit</a>
+      </div>
     </div>
-    <div>
-      <!-- <h2>What we offer</h2>
-      <p>At Babysteps, we offer a wide range of services to help you capture all the moments that matter. From maternity shoots to baby showers, we have you covered. We also offer baby photography services to help you capture all the moments that matter.</p> -->
-    </div>
-    </div>
+    <section id="features">
+      <h2>Features</h2>
+      <div class="features">
+        <div class="feature">
+          <div class="title">
+          <h3>Health records</h3>
+        </div>
+        <p>Vaccination scheduling ensures parents get all important immunizations.</p>
+        <p>The appointment log helps keep track of check-ups, specialist visits, and health concerns discussed.</p>
+        </div>
+        <div class="feature">
+          <div class="title">
+            <h3>Development tracking</h3>
+          </div>
+          <p>Customizable timelines allow parents to input their child's actual achievements, adjusting for premature births or developmental delays.</p>
+        </div>
+
+        <div class="feature">
+          <div class="title">
+            <h3>Growth tracking</h3>
+          </div>
+          <p>Charts visualize the baby's growth over time, allowing parents to see trends.</p>
+        </div>
+
+        <div class="feature">
+          <div class="title">
+  
+            <h3>Personalized alerts</h3>
+          </div>
+          <p>Milestone reminders help parents know what to look out for next</p>
+          <p>Check-up notifications ensure regular health monitoring.</p>
+        </div>
+      </div>
+    </section>
+    <section id="about">
+      <h2>About</h2>
+      <p>This project was birthed from an idea I had when I looked at my own life and thought what could I build right now that
+      I can use in my own life. I have a daughter and I have been using a baby book to track her milestones and growth.
+       I thought to myself, what if I could build a digital version of this book that could be used by parents 
+       all over the world. That's how Babysteps was born. It started as a portfolio project for <a href="https://www.alxafrica.com/">ALX</a>
+      and I aim to build it into a fully mature app with all the features that parents need to track their child's growth and development
+      </p>
+      <div class="team">
+        <h3>Our team</h3>
+        <p>Our team is made up of a group of passionate individuals (mostly me lol) who are dedicated to helping parents track their child's growth and development. We are committed to providing the best possible service to our customers and we are always looking for ways to improve our product.</p>
+        <div class="urls">
+          <ul>
+            <li><a href="">Twitter</a></li>
+            <li><a href="https://www.linkedin.com/in/paulogolla/">LinkedIn</a></li>
+            <li><a href="https://github.com/paulzay">Github</a></li>
+          </ul>
+          <div>
+            <p>Links to the project</p>
+            <ul>
+              <li><a href="https://github.com/paulzay/babysteps-client">Frontend</a></li>
+              <li><a href="https://github.com/paulzay/babysteps-api">Backend</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
   </main>
   <footer>
-    <p>&copy; 2024 Paul Ogolla</p>
+    <p>&copy; 2024 Babysteps</p>
     <p>All rights reserved</p>
   </footer>
   <script src="index.js"></script>
 </html>
+
+
